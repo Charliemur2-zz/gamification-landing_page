@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  /*background: url("../img/bg-masthead.jpg") no-repeat center center;*/
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -29,12 +29,15 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #002333;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: justify;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 header.masthead h1 {
@@ -104,7 +107,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  /*background: url("../img/bg-masthead.jpg") no-repeat center center;*/
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -123,4 +126,43 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.icon {
+  border-radius: 50%;
+  width: 30px;
+}
+.nav-item {
+  padding-left: 10px;
+}
+.git-icon {
+  width: 150px;
+}
+.summary {
+  width: 80%;
+  height: 70px;
+}
+#summary {
+  width: 90%;
+}
+.summary-container h3 {
+  padding-top: 20px;
+}
+#visualizations {
+  width: 30%;
+}
+#road{
+  width: 90%;
+  padding-top: 40px;
+}
+h3 {
+  padding-top: 35px;
+}
+.container {
+  padding-top: 30px;
+}
+.last-container {
+  padding-top: 50px;
+}
+#visualizations-info {
+  align-content: initial;
 }
