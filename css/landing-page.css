@@ -138,11 +138,11 @@ footer.footer {
   width: 150px;
 }
 .summary {
-  width: 80%;
+  width: 100%;
   height: 70px;
 }
 #summary {
-  width: 90%;
+  width: 95%;
 }
 .summary-container h3 {
   padding-top: 20px;
@@ -163,6 +163,9 @@ h3 {
 .last-container {
   padding-top: 50px;
 }
-#visualizations-info {
-  align-content: initial;
+.button-visual {
+  padding-top: 15px;
+}
+.button-road {
+  padding-top: 15px;
 }
