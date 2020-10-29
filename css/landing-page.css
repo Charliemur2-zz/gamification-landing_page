@@ -30,32 +30,36 @@ header.masthead {
 header.masthead .overlay {
   position: absolute;
   background-color: #002333;
-  background-image: url(../img/logo.png);
+  /* background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-position: justify;
-  background-size: 20rem;
+  background-size: 20rem; */
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
+  /* opacity: 0.2; */
 }
 
 header.masthead h1 {
   font-size: 2rem;
 }
+header .container {
+  padding-top: 0;
+}
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 13rem;
+    padding-top: 6rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   header.masthead {
-    padding-top: 14rem;
+    padding-top: 6rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
@@ -129,7 +133,7 @@ header.masthead h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 
 footer.footer {
@@ -177,4 +181,12 @@ h3 {
 }
 .button-road {
   padding-top: 15px;
+}
+#logo-skill {
+  width: 8rem;
+  border-radius: 50%;
+}
+.logo-div {
+  display: flex;
+  padding-left: 30px;
 }
